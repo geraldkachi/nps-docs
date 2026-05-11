@@ -1,0 +1,18 @@
+/* src/index.css - Replace content */
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900;
+  }
+}
+
+@layer components {
+  .prose pre {
+    @apply bg-gray-900 rounded-lg p-4 overflow-x-auto;
+  }
+  
+  .prose code {
+    @apply text-sm;
+  }
+}
